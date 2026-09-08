@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+    <rect width="1200" height="675" fill="#edf4f1"/>
+    <circle cx="1010" cy="110" r="180" fill="#d7e7e0"/>
+    <circle cx="110" cy="590" r="230" fill="#dfeae5"/>
+    <path d="M120 150h420M120 195h300M120 240h360" stroke="#176b5b" stroke-width="16" stroke-linecap="round" opacity=".85"/>
+    <rect x="120" y="310" width="620" height="210" rx="24" fill="#fff" stroke="#dfe4df"/>
+    <path d="M170 365h440M170 410h360M170 455h250" stroke="#66706b" stroke-width="13" stroke-linecap="round"/>
+    <text x="120" y="105" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#176b5b">SEO FUNDAMENTALS</text>
+    <text x="120" y="565" font-family="Arial, sans-serif" font-size="24" fill="#66706b">Search Intent • Content • Visibility</text>
+    </svg>
