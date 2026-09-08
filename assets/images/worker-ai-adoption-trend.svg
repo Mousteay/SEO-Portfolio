@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Workplace AI adoption trend</title>
+  <desc id="desc">Illustration of workplace AI adoption increasing across worker groups</desc>
+  <rect width="1200" height="675" rx="28" fill="#f5f7f6"/>
+  <rect x="55" y="55" width="1090" height="565" rx="24" fill="#ffffff" stroke="#d9e1dc" stroke-width="3"/>
+  
+  <text x="115" y="130" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#18382c">AI use at work is increasing</text>
+  <line x1="170" y1="500" x2="1020" y2="500" stroke="#52665c" stroke-width="3"/>
+  <line x1="170" y1="210" x2="170" y2="500" stroke="#52665c" stroke-width="3"/>
+  <rect x="270" y="335" width="115" height="165" rx="10" fill="#1f5c45"/>
+  <rect x="430" y="270" width="115" height="230" rx="10" fill="#2f765b"/>
+  <rect x="650" y="375" width="115" height="125" rx="10" fill="#1f5c45"/>
+  <rect x="810" y="335" width="115" height="165" rx="10" fill="#2f765b"/>
+  <text x="258" y="540" font-family="Arial, sans-serif" font-size="22" fill="#18382c">2024</text>
+  <text x="418" y="540" font-family="Arial, sans-serif" font-size="22" fill="#18382c">2025</text>
+  <text x="632" y="570" font-family="Arial, sans-serif" font-size="19" fill="#52665c">Bachelor's+</text>
+  <text x="792" y="570" font-family="Arial, sans-serif" font-size="19" fill="#52665c">Some college+</text>
+  <text x="302" y="320" font-family="Arial, sans-serif" font-size="22" fill="#18382c">20%</text>
+  <text x="462" y="255" font-family="Arial, sans-serif" font-size="22" fill="#18382c">28%</text>
+  <text x="682" y="360" font-family="Arial, sans-serif" font-size="22" fill="#18382c">13%</text>
+  <text x="842" y="320" font-family="Arial, sans-serif" font-size="22" fill="#18382c">16%</text>
+
+</svg>
