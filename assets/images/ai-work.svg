@@ -1,10 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
-    <rect width="1200" height="675" fill="#edf4f1"/>
-    <circle cx="1010" cy="110" r="180" fill="#d7e7e0"/>
-    <circle cx="110" cy="590" r="230" fill="#dfeae5"/>
-    <path d="M120 150h420M120 195h300M120 240h360" stroke="#176b5b" stroke-width="16" stroke-linecap="round" opacity=".85"/>
-    <rect x="120" y="310" width="620" height="210" rx="24" fill="#fff" stroke="#dfe4df"/>
-    <path d="M170 365h440M170 410h360M170 455h250" stroke="#66706b" stroke-width="13" stroke-linecap="round"/>
-    <text x="120" y="105" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#176b5b">AI & WORK</text>
-    <text x="120" y="565" font-family="Arial, sans-serif" font-size="24" fill="#66706b">Artificial Intelligence • Work • Change</text>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Artificial intelligence changing the way we work</title>
+  <desc id="desc">Professional workplace illustration showing a person working with an AI system</desc>
+  <rect width="1200" height="675" rx="28" fill="#f5f7f6"/>
+  <rect x="55" y="55" width="1090" height="565" rx="24" fill="#ffffff" stroke="#d9e1dc" stroke-width="3"/>
+  
+  <rect x="105" y="125" width="990" height="420" rx="22" fill="#eef3f0"/>
+  <rect x="175" y="205" width="470" height="285" rx="18" fill="#ffffff" stroke="#1f5c45" stroke-width="5"/>
+  <rect x="215" y="245" width="390" height="180" rx="12" fill="#e7efeb"/>
+  <circle cx="315" cy="335" r="58" fill="#1f5c45"/>
+  <path d="M287 335h56M315 307v56" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <rect x="735" y="190" width="275" height="320" rx="24" fill="#ffffff" stroke="#1f5c45" stroke-width="5"/>
+  <circle cx="872" cy="285" r="50" fill="#dce9e2"/>
+  <path d="M835 285h74M872 248v74" stroke="#1f5c45" stroke-width="8" stroke-linecap="round"/>
+  <rect x="790" y="370" width="165" height="18" rx="9" fill="#b7c9c0"/>
+  <rect x="815" y="410" width="115" height="18" rx="9" fill="#b7c9c0"/>
+  <path d="M645 345h90" stroke="#1f5c45" stroke-width="8" stroke-linecap="round"/>
+  <path d="M705 320l35 25-35 25" fill="none" stroke="#1f5c45" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="105" y="105" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#18382c">AI and the changing workplace</text>
+
+</svg>
