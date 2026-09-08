@@ -63,6 +63,8 @@ a{color:inherit}
 .article-card .btn{margin-top:8px}
 .contact-box{display:grid;grid-template-columns:1fr .8fr;gap:45px;align-items:center;background:#fff;color:#000;border:1px solid var(--line);border-radius:28px;padding:48px}
 .contact-box p{color:#000}.contact-box .btn-secondary{color:var(--accent);border-color:var(--accent)}
+.contact-box h2,.contact-email,.footer a{overflow-wrap:anywhere;word-break:break-word}
+.contact-email{font-size:clamp(1.35rem,3vw,2rem);line-height:1.25;margin:10px 0 12px}
 .footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 .page-hero{padding:75px 0 55px;background:#fff;border-bottom:1px solid var(--line)}
 .page-hero h1{font-size:clamp(2.4rem,5vw,4.4rem);line-height:1.05;letter-spacing:-.045em;margin:12px 0}
