@@ -1,15 +1,30 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // One navigation controller that supports both the main-site and article-page markup.
   const toggle = document.querySelector(".nav-toggle");
-  const menu = document.querySelector(".nav-links");
+  const menu = document.querySelector(".nav-links") || document.querySelector("#site-navigation");
+
   if (toggle && menu) {
-    toggle.addEventListener("click", () => {
-      const open = menu.classList.toggle("open");
-      toggle.setAttribute("aria-expanded", String(open));
-    });
-    menu.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
-      menu.classList.remove("open");
+    const closeMenu = () => {
+      menu.classList.remove("open", "is-open");
       toggle.setAttribute("aria-expanded", "false");
-    }));
+      toggle.setAttribute("aria-label", "Open navigation menu");
+      document.body.classList.remove("nav-open");
+    };
+
+    toggle.addEventListener("click", () => {
+      const isOpen = menu.classList.contains("open") || menu.classList.contains("is-open");
+      menu.classList.toggle("open", !isOpen);
+      menu.classList.toggle("is-open", !isOpen);
+      toggle.setAttribute("aria-expanded", String(!isOpen));
+      toggle.setAttribute("aria-label", isOpen ? "Open navigation menu" : "Close navigation menu");
+      document.body.classList.toggle("nav-open", !isOpen);
+    });
+
+    menu.querySelectorAll("a").forEach(link => link.addEventListener("click", closeMenu));
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 900) closeMenu();
+    });
   }
 
   const filterButtons = document.querySelectorAll(".filter-btn");
@@ -24,40 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }));
   }
 
-  const year = document.querySelectorAll("[data-year]");
-  year.forEach(el => el.textContent = new Date().getFullYear());
-});
-
-
-// Mobile navigation
-document.addEventListener("DOMContentLoaded", function () {
-  const toggle = document.querySelector(".nav-toggle");
-  const nav = document.querySelector("#site-navigation");
-
-  if (!toggle || !nav) return;
-
-  toggle.addEventListener("click", function () {
-    const isOpen = nav.classList.toggle("is-open");
-    toggle.setAttribute("aria-expanded", String(isOpen));
-    toggle.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
-    document.body.classList.toggle("nav-open", isOpen);
-  });
-
-  nav.querySelectorAll("a").forEach(function (link) {
-    link.addEventListener("click", function () {
-      nav.classList.remove("is-open");
-      toggle.setAttribute("aria-expanded", "false");
-      toggle.setAttribute("aria-label", "Open navigation menu");
-      document.body.classList.remove("nav-open");
-    });
-  });
-
-  window.addEventListener("resize", function () {
-    if (window.innerWidth > 800) {
-      nav.classList.remove("is-open");
-      toggle.setAttribute("aria-expanded", "false");
-      toggle.setAttribute("aria-label", "Open navigation menu");
-      document.body.classList.remove("nav-open");
-    }
+  document.querySelectorAll("[data-year]").forEach(el => {
+    el.textContent = new Date().getFullYear();
   });
 });
