@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Organic versus paid traffic</title>
+<desc id="desc">Comparison of organic search traffic and paid traffic</desc>
+<rect width="1200" height="675" rx="28" fill="#f5f7f6"/>
+<rect x="55" y="55" width="1090" height="565" rx="24" fill="#ffffff" stroke="#d9e1dc" stroke-width="3"/>
+
+<text x="105" y="120" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#18382c">Organic traffic and paid traffic</text>
+<line x1="150" y1="510" x2="1050" y2="510" stroke="#52665c" stroke-width="3"/>
+<line x1="150" y1="190" x2="150" y2="510" stroke="#52665c" stroke-width="3"/>
+<path d="M180 475 C350 455, 420 405, 560 350 S820 245, 1020 205" fill="none" stroke="#1f5c45" stroke-width="8" stroke-linecap="round"/>
+<path d="M180 455 L400 430 L620 425 L830 430 L1020 430" fill="none" stroke="#2f765b" stroke-width="7" stroke-linecap="round" stroke-dasharray="14 12"/>
+<text x="185" y="555" font-family="Arial, sans-serif" font-size="20" fill="#52665c">Time</text>
+<text x="760" y="230" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#18382c">Organic search</text>
+<text x="760" y="260" font-family="Arial, sans-serif" font-size="18" fill="#52665c">Can continue after publication</text>
+<text x="760" y="375" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#18382c">Paid traffic</text>
+<text x="760" y="405" font-family="Arial, sans-serif" font-size="18" fill="#52665c">Depends on ongoing ad spend</text>
+
+</svg>

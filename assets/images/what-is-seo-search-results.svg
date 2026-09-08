@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">What is SEO</title>
+<desc id="desc">Search engine results page illustration</desc>
+<rect width="1200" height="675" rx="28" fill="#f5f7f6"/>
+<rect x="55" y="55" width="1090" height="565" rx="24" fill="#ffffff" stroke="#d9e1dc" stroke-width="3"/>
+
+<text x="105" y="120" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#18382c">Search results and organic visibility</text>
+<rect x="105" y="165" width="990" height="365" rx="18" fill="#f8faf9" stroke="#d9e1dc" stroke-width="3"/>
+<rect x="155" y="205" width="690" height="54" rx="27" fill="#ffffff" stroke="#b9c8c0" stroke-width="3"/>
+<circle cx="190" cy="232" r="12" fill="#1f5c45"/>
+<text x="220" y="241" font-family="Arial, sans-serif" font-size="22" fill="#52665c">what is SEO and how does it help a website</text>
+<rect x="155" y="300" width="720" height="72" rx="10" fill="#ffffff" stroke="#d9e1dc" stroke-width="2"/>
+<text x="180" y="330" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f5c45">Organic result</text>
+<text x="180" y="355" font-family="Arial, sans-serif" font-size="19" fill="#18382c">Useful content that matches the searcher's intent</text>
+<rect x="155" y="405" width="720" height="72" rx="10" fill="#ffffff" stroke="#d9e1dc" stroke-width="2"/>
+<text x="180" y="435" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f5c45">Organic result</text>
+<text x="180" y="460" font-family="Arial, sans-serif" font-size="19" fill="#18382c">Relevant page with a clear title and structure</text>
+<rect x="915" y="300" width="125" height="177" rx="12" fill="#e7efeb"/>
+<circle cx="978" cy="355" r="32" fill="#1f5c45"/>
+<path d="M962 355h32M978 339v32" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+
+</svg>

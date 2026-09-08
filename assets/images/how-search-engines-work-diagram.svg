@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">How search engines work</title>
+<desc id="desc">Crawling, indexing, and ranking process</desc>
+<rect width="1200" height="675" rx="28" fill="#f5f7f6"/>
+<rect x="55" y="55" width="1090" height="565" rx="24" fill="#ffffff" stroke="#d9e1dc" stroke-width="3"/>
+
+<text x="105" y="120" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#18382c">Crawling, indexing, and ranking</text>
+<g font-family="Arial, sans-serif">
+<rect x="105" y="220" width="285" height="220" rx="20" fill="#eef3f0" stroke="#1f5c45" stroke-width="4"/>
+<circle cx="247" cy="285" r="45" fill="#1f5c45"/>
+<path d="M220 285h54M247 258v54" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+<text x="185" y="370" font-size="27" font-weight="700" fill="#18382c">Crawl</text>
+<text x="145" y="405" font-size="18" fill="#52665c">Discover pages</text>
+<path d="M410 330h100" stroke="#1f5c45" stroke-width="8" stroke-linecap="round"/>
+<path d="M480 305l35 25-35 25" fill="none" stroke="#1f5c45" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="545" y="220" width="285" height="220" rx="20" fill="#eef3f0" stroke="#1f5c45" stroke-width="4"/>
+<circle cx="687" cy="285" r="45" fill="#1f5c45"/>
+<rect x="665" y="263" width="44" height="44" rx="5" fill="#fff"/>
+<text x="625" y="370" font-size="27" font-weight="700" fill="#18382c">Index</text>
+<text x="585" y="405" font-size="18" fill="#52665c">Understand and store</text>
+<path d="M860 330h100" stroke="#1f5c45" stroke-width="8" stroke-linecap="round"/>
+<path d="M930 305l35 25-35 25" fill="none" stroke="#1f5c45" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="995" y="220" width="100" height="220" rx="20" fill="#eef3f0" stroke="#1f5c45" stroke-width="4"/>
+<circle cx="1045" cy="285" r="32" fill="#1f5c45"/>
+<text x="1017" y="370" font-size="21" font-weight="700" fill="#18382c">Rank</text>
+<text x="1008" y="405" font-size="16" fill="#52665c">Match</text>
+</g>
+
+</svg>
